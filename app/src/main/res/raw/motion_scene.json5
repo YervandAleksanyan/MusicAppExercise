@@ -1,0 +1,82 @@
+{
+  ConstraintSets: {
+    start: {
+      box_top_app_bar: {
+        start: ['parent', 'start' ],
+        end: ['parent', 'end'],
+        top: [ 'parent', 'top' ],
+        alpha: 1
+      },
+      top_app_bar_title: {
+        start: ['box_top_app_bar', 'start', 16 ],
+        top: ['box_top_app_bar', 'top', 12 ],
+        bottom: ['box_top_app_bar','bottom',16],
+        custom: {
+          fontSize: 34,
+        },
+        motion: {
+          customFloatValue: 34
+        },
+        scaleX: 1,
+        scaleY: 1
+      },
+      content: {
+        height: 'spread',
+        width: 'spread',
+        start: ['parent','start'],
+        end: ['parent','end'],
+        top: ['box_top_app_bar','bottom'],
+        bottom: ['parent','bottom']
+      },
+
+    },
+    end: {
+      box_top_app_bar: {
+        start: ['parent','start' ],
+        end: ['parent','end' ],
+        top: ['parent', 'top' ],
+        alpha: 0.85
+      },
+      top_app_bar_title: {
+        width: 'spread',
+        height: 'spread',
+        start: ['box_top_app_bar', 'start',0],
+        top: ['box_top_app_bar', 'top',23],
+        end: ['box_top_app_bar', 'end',0],
+        bottom: ['box_top_app_bar','bottom',0],
+        custom: {
+          fontSize: 16
+        },
+        motion: {
+          customFloatValue: 16
+        },
+        scaleX: 0.87,
+        scaleY: 0.87
+      },
+      content: {
+        start: ['parent','start'],
+        end: ['parent','end'],
+        top: ['parent','top'],
+        bottom: ['parent','bottom']
+      }
+    }
+  },
+  Transitions: {
+    deafult: {
+      from: 'start',
+      to: 'end',
+      pathMotionArc: 'startHorizontal',
+      duration: 1000,
+      KeyFrames: {
+        KeyAttributes: [
+          {
+            target: ['top_app_bar_title'],
+            frames: [0,50,100],
+            scaleX: [1,0.9,0.87],
+            scaleY: [1,0.9,0.87]
+          }
+        ]
+      }
+    }
+  }
+}

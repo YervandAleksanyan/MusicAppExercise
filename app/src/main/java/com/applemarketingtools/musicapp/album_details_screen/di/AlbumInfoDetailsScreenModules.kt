@@ -1,0 +1,5 @@
+package com.applemarketingtools.musicapp.album_details_screen.di
+
+import com.applemarketingtools.musicapp.album_details_screen.presentation.di.albumDetailsScreenPresentationModule
+
+val albumInfoDetailsScreenModules = albumDetailsScreenPresentationModule

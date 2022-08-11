@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+                    <!--    Splash-->
+    <dimen name="splash_icon_size">500dp</dimen>
+
+                    <!--    TopAppBar-->
+    <dimen name="top_app_bar_height">65dp</dimen>
+
+                <!--    AlbumInfoScreen-->
+    <dimen name="album_info_item_width">173dp</dimen>
+    <dimen name="album_info_item_height">173dp</dimen>
+    <dimen name="album_info_item_divider_hor">12dp</dimen>
+    <dimen name="album_info_item_divider_vertical">12dp</dimen>
+    <dimen name="album_info_item_card_elevation">8dp</dimen>
+    <dimen name="album_info_item_padding_hor">16dp</dimen>
+    <dimen name="album_info_item_padding_vertical">15dp</dimen>
+    <dimen name="album_info_item_first_label_padding_start">12dp</dimen>
+    <dimen name="album_info_item_first_label_padding_end">13dp</dimen>
+    <dimen name="album_info_item_second_label_padding_start">12dp</dimen>
+    <dimen name="album_info_item_second_label_padding_end">13dp</dimen>
+    <dimen name="album_info_item_second_label_padding_bottom">12dp</dimen>
+
+               <!--    AlbumInfoDetailsScreen-->
+    <dimen name="album_info_details_image_height">390dp</dimen>
+    <dimen name="album_info_details_label_container_padding_start">16dp</dimen>
+    <dimen name="album_info_details_label_container_padding_end">16dp</dimen>
+    <dimen name="album_info_details_label_container_padding_top">12dp</dimen>
+    <dimen name="album_info_details_chip_button_margin_top">8dp</dimen>
+    <dimen name="album_info_details_chip_button_border_stroke_width">1dp</dimen>
+    <dimen name="album_info_details_chip_button_content_padding_start">8dp</dimen>
+    <dimen name="album_info_details_chip_button_content_padding_end">8dp</dimen>
+    <dimen name="album_info_details_chip_button_content_padding_top">3dp</dimen>
+    <dimen name="album_info_details_chip_button_content_padding_bottom">4dp</dimen>
+    <dimen name="album_info_details_label_1_padding_start">16dp</dimen>
+    <dimen name="album_info_details_label_1_padding_end">16dp</dimen>
+    <dimen name="album_info_details_label_1_padding_bottom">65dp</dimen>
+    <dimen name="album_info_details_visit_button_margin_top">24dp</dimen>
+    <dimen name="album_info_details_visit_button_content_padding_hor">20dp</dimen>
+    <dimen name="album_info_details_visit_button_content_padding_vertical">13dp</dimen>
+    <dimen name="album_info_details_back_button_margin_start">16dp</dimen>
+    <dimen name="album_info_details_back_button_margin_top">59dp</dimen>
+
+
+    <!--    Network Error Screen-->
+    <dimen name="network_error_anim_icon_height">250dp</dimen>
+    <dimen name="network_error_anim_icon_margin_top">24dp</dimen>
+    <dimen name="network_error_title_margin_top">32dp</dimen>
+    <dimen name="network_error_description_margin_hor">60dp</dimen>
+    <dimen name="network_error_description_margin_top">10dp</dimen>
+    <dimen name="network_error_try_again_button_margin_bottom">56dp</dimen>
+    <dimen name="network_error_try_again_button_content_padding_hor">40dp</dimen>
+    <dimen name="network_error_try_again_button_content_padding_vertical">20dp</dimen>
+
+
+</resources>

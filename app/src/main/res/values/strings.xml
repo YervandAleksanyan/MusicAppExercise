@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Music App Exercise</string>
+    <string name="album_info_tool_bar_title">Top 100 Albums</string>
+
+
+    <!--    Album Info Details-->
+    <string name="button_text_chip_base">Reggaeton</string>
+    <string name="button_text_go_to_album">Visit The Album</string>
+    <string name="release_date">Released %s</string>
+
+    <!--    Network error Screen-->
+    <string name="network_error_title">Ooops!</string>
+    <string name="network_error_description">It seems there is something wrong with your internet connection.Please connect to the internet and start TRY again.</string>
+     <string name="network_error_try_again_button_text">Try Again</string>
+</resources>
